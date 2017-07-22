@@ -1,0 +1,5 @@
+﻿<connectionStrings>
+  <add name="NORTHEntities"
+    connectionString="metadata=res://*/North.csdl|res://*/North.ssdl|res://*/North.msl;&#xD;&#xA;      provider=System.Data.SqlClient;provider connection string=&quot;&#xD;&#xA;      Data Source=WINSQL2016\SQL2017;Initial Catalog=NORTHWND;User ID=usrProduction;Password=Pa$$w0rd;&#xD;&#xA;      MultipleActiveResultSets=True;Application Name=EntityFramework&quot;"
+    providerName="System.Data.EntityClient" />
+</connectionStrings>
