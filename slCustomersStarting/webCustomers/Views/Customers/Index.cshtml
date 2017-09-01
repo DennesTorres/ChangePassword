@@ -1,0 +1,18 @@
+﻿@model List<libData.Customers>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@{
+    WebGrid grid = new WebGrid(source: Model, canPage: true, rowsPerPage: 8);
+}
+@grid.GetHtml(
+              tableStyle: "webgrid",
+              headerStyle: "head",
+              alternatingRowStyle: "alt",
+              caption: "Customers",
+              displayHeader: true,
+              mode: WebGridPagerModes.NextPrevious, previousText: "Previous", nextText: "Next"
+           )
